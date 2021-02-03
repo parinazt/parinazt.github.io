@@ -16,7 +16,7 @@ header, section {
   padding-top: 5rem;
 }
 
-h2.text-inside-line {
+h3.text-inside-line {
   width: 100%; 
   text-align: center; 
   border-bottom: 1px solid #000; 
@@ -24,7 +24,7 @@ h2.text-inside-line {
   margin: 10px 0 20px; 
 }
 
-h2.text-inside-line span { 
+h3.text-inside-line span { 
   background:#fff; 
   padding:0 10px; 
 }
