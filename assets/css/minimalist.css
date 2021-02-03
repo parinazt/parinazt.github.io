@@ -16,6 +16,19 @@ header, section {
   padding-top: 5rem;
 }
 
+h2.text-inside-line {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #000; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+}
+
+h2.text-inside-line span { 
+  background:#fff; 
+  padding:0 10px; 
+}
+
 /* Anchors */
 a {
   color: black;
