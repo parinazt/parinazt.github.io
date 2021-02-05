@@ -17,6 +17,20 @@ header, section {
   padding-top: 5rem;
 }
 
+/* For vertical centered lines in about me section */
+h3.text-inside-line {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid white; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+}
+
+h3.text-inside-line span { 
+  background:black; 
+  padding:0 10px; 
+}
+
 /* Switch button */
 input.switch-mode:checked {
   background-color: black;
@@ -29,12 +43,16 @@ input.switch-mode:checked {
 }
 
 /* Texts */
-h2 {
+h2, h3 {
   color: #CCD1D9
 }
 
 p {
   color: white;
+}
+
+span {
+  color: #CCD1D9
 }
 
 /* Anchors */
@@ -65,8 +83,8 @@ a:hover {
 
 /* User Image */
 .user-image {
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
