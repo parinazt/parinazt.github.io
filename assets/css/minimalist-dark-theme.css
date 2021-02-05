@@ -9,6 +9,7 @@ html {
 /* Body */
 body {
   font-family: 'Raleway', sans-serif !important;
+  background-color: black;
 }
 
 /* Header and Section */
@@ -16,28 +17,35 @@ header, section {
   padding-top: 5rem;
 }
 
-h3.text-inside-line {
-  width: 100%; 
-  text-align: center; 
-  border-bottom: 1px solid #000; 
-  line-height: 0.1em;
-  margin: 10px 0 20px; 
+/* Switch button */
+input.switch-mode:checked {
+  background-color: black;
+  border-color: white;
 }
 
-h3.text-inside-line span { 
-  background:#fff; 
-  padding:0 10px; 
+.form-check-label {
+  color: white;
+  margin-left: 10px;
+}
+
+/* Texts */
+h2 {
+  color: #CCD1D9
+}
+
+p {
+  color: white;
 }
 
 /* Anchors */
 a {
-  color: black;
+  color: white;
   text-decoration: underline;
 }
 
 a:hover {
-  color: black;
-  background-image: linear-gradient(to right, black, black);
+  color: white;
+  background-image: linear-gradient(to right, white, white);
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 100% 2px;
@@ -51,16 +59,16 @@ a:hover {
 
 /* Social Icons a color */
 .social-icons a {
-  color: black!important;
+  color: white!important;
   background: none;
 }
 
 /* User Image */
 .user-image {
-  width: 150px;
-  height: 150px;
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
+  width: 140px;
+  height: 140px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 @media (max-width: 767px) {
@@ -70,14 +78,20 @@ a:hover {
 }
 
 /* Content Switcher */
-.list-group-item.active {
-  color: white!important;
+.list-group-item {
+  color: black!important;
   background: black!important;
-  border-color: black!important;
+  border-color: white!important;
+}
+
+.list-group-item.active {
+  color: black!important;
+  background: white!important;
+  border-color: white!important;
 }
 
 .list-group a {
-  color: black!important;
+  color: white!important;
 }
 
 /* Timeline */
@@ -128,8 +142,8 @@ a:hover {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  border: 2px solid black;
-  background: white;
+  border: 2px solid white;
+  background: black;
   margin-top: 10px;
   z-index: 9999
 }
@@ -137,7 +151,7 @@ a:hover {
 .timeline-content {
   width: 95%;
   padding: 0 15px;
-  color: black;
+  color: white;
 }
 
 .timeline-block-left .timeline-content {
@@ -160,7 +174,7 @@ a:hover {
   font-size: 14px;
   line-height: 1.5em;
   word-spacing: 1px;
-  color: black;
+  color: white;
 }
 
 
