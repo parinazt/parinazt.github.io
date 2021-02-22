@@ -8,6 +8,10 @@
 
     <!-- Mobile-friendly -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Tooltips -->
+    <!-- Production version -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -99,13 +103,29 @@
                 </div>
               </div>
 
-              <div style="margin-top: 70px; margin-bottom: 100px;">
+              <div style="margin-top: 70px;">
                 <!-- contact-info -->
                 <h3 class="text-inside-line text-center"><span>Contact info</span></h3>
                 <div style="margin-top: 40px">
                   <div class="row justify-content-lg-center">
                     <div class="col text-end"><span>E-mail</span></div>	
                     <div class="col text-start"><span class="text-muted">stefanolambiase7@gmail.com</span></div>	
+                  </div>
+                </div>
+              </div>
+
+              <div style="margin-top: 70px; margin-bottom: 100px;">
+                <!-- Hobbies-info -->
+                <h3 class="text-inside-line text-center"><span>Hobbies & Interests</span></h3>
+                <div style="margin-top: 40px">
+                  <div class="row justify-content-lg-center">
+                    <ul class="list-inline h5 text-center" style="font-size: 170%">
+                      <li class="list-inline-item px-2" data-toggle="tooltip" data-placement="bottom" title="Music">🎶</li>
+                      <li class="list-inline-item px-2" data-toggle="tooltip" data-placement="bottom" title="Games">🎮</li>
+                      <li class="list-inline-item px-2" data-toggle="tooltip" data-placement="bottom" title="Computers">💻</li>
+                      <li class="list-inline-item px-2" data-toggle="tooltip" data-placement="bottom" title="Read Books">📖</li>
+                      <li class="list-inline-item px-2" data-toggle="tooltip" data-placement="bottom" title="Walk and exercise">🚶‍♂️</li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -265,5 +285,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <!-- javaScript for dark mode -->
     <script src="js/switchMode.js"></script>
+    <!-- javascript for tooltips -->
+    <script>
+      // Select all elements with data-toggle="tooltips" in the document
+      $('[data-toggle="tooltip"]').tooltip();
+    </script>
   </body>
 </html>
