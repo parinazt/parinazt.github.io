@@ -21,7 +21,7 @@ function switchModeFunction () {
                 item.classList.add('bg-dark');
             });
 
-            switchLabel.textContent = "Light Mode";
+            switchLabel.textContent = 'Dark Mode';
         } else {
             // ... switch it to "light-theme.css"
             theme.href = "assets/css/minimalist-light-theme.css";
@@ -32,7 +32,7 @@ function switchModeFunction () {
                 item.classList.remove('bg-dark');
             });
 
-            switchLabel.textContent = "Dark Mode";
+            switchLabel.textContent = 'Light Mode';
         }
     });
 }
