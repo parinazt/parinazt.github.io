@@ -177,6 +177,10 @@ a:hover {
  text-align:right;
 }
 
+.timeline-block-right .timeline-content {
+  text-align:left;
+ }
+
 .timeline-content .timeline-h3 {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -219,6 +223,10 @@ a:hover {
  .timeline-block-left .timeline-content {
    text-align:left;
    order: 2;
+ }
+
+ .timeline-block-right .timeline-content {
+  text-align:left;
  }
  
  .timeline-block-left .marker {
