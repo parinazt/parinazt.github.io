@@ -180,6 +180,11 @@ a:hover {
   color: black;
 }
 
+.btn-publication {
+  color: white!important;
+  background: black!important;
+  border-color: black!important;
+}
 
 @media screen and (max-width: 768px) {
   .timeline-container:before {
