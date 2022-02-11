@@ -186,6 +186,18 @@ a:hover {
   border-color: black!important;
 }
 
+
+a.download-pub {
+  color: white ;
+  text-decoration: none
+}
+
+a.download-pub:visited {
+  color: white ;
+  text-decoration: none
+}
+
+
 @media screen and (max-width: 768px) {
   .timeline-container:before {
     left: 8px;
